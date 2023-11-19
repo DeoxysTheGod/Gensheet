@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "assets/scripts/js",
+    "rootDir": "assets/scripts/ts",
+    "strict": true
+  },
+  "include": [
+    "assets/scripts/ts/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

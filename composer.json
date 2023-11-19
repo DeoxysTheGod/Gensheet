@@ -10,5 +10,12 @@
             "App\\": "src"
         }
     },
-    "require": {}
+    "scripts" : {
+        "watch-js": "tsc --watch",
+        "watch-sass": "sass --watch assets/styles/scss:assets/styles/css"
+    },
+
+    "require": {
+        "scssphp/scssphp": "^1.12"
+    }
 }
