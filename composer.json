@@ -1,0 +1,14 @@
+{
+    "name": "quentin/gensheet",
+    "authors": [
+        {
+            "name": "Quentin"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {}
+}
