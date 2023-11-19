@@ -1,3 +1,3 @@
 # Gensheet
 
-[Site](https://deoxysthegod.github.io/Gensheet/)
+[Site](http://gensheet.alwaysdata.net)
