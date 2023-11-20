@@ -11,8 +11,8 @@
         }
     },
     "scripts" : {
-        "watch-js": "tsc --watch",
-        "watch-sass": "sass --watch assets/styles/scss:assets/styles/css"
+        "watch-js": "node_modules/.bin/tsc --watch",
+        "watch-sass": "node_modules/.bin/sass --watch assets/styles/scss:assets/styles/css"
     },
 
     "require": {
