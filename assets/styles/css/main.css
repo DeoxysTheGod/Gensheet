@@ -1,3 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+:root {
+  --clr-primary-background: #14142a;
+  --clr-primary-text: #c7c5c2;
+  --clr-navbar-background: #242445;
+  --clr-button-hover: #363657;
+}
 
+html[data-theme=dark] {
+  --clr-primary-background: #14142a;
+  --clr-primary-text: #c7c5c2;
+  --clr-navbar-background: #242445;
+  --clr-button-hover: #363657;
+}
 
-/*# sourceMappingURL=main.css.map */
+html[data-theme=light] {
+  --clr-primary-background: #ccd6ea;
+  --clr-primary-text: #131313;
+  --clr-navbar-background: #7575de;
+  --clr-button-hover: #6565d2;
+}
+
+.app-link {
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding: 0 0.4rem;
+  border-radius: 4px;
+  line-height: 30px;
+}
+
+.app-link:hover {
+  background-color: var(--clr-button-hover);
+}
+
+.app-button {
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding: 0 0.4rem;
+  border-radius: 4px;
+  border: none;
+  line-height: 30px;
+  background-color: var(--clr-navbar-background);
+}
+
+.app-button:hover {
+  background-color: var(--clr-button-hover);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0 1rem;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.appHeader {
+  display: block;
+  width: 100%;
+  background-color: var(--clr-navbar-background);
+}
+
+.appHeader-globalBar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 0.5rem;
+}
+.appHeader-globalBar .appHeader-globalBar-start {
+  display: flex;
+  flex: 1 1 auto;
+}
+.appHeader-globalBar .appHeader-globalBar-end {
+  display: flex;
+  flex: 0 1 auto;
+}
+
+html {
+  background-color: var(--clr-primary-background);
+  color: var(--clr-primary-text);
+}

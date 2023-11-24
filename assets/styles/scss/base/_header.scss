@@ -1,0 +1,28 @@
+@import 'navbar';
+@import '../variables/global-variables';
+
+.appHeader {
+  display: block;
+
+  width: 100%;
+
+  // Colors
+  background-color: var(--clr-navbar-background);
+}
+
+.appHeader-globalBar {
+  display: flex;
+  align-items: center;
+
+  padding: $global-side-padding $global-side-padding 0.5rem;
+
+  .appHeader-globalBar-start {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .appHeader-globalBar-end {
+    display: flex;
+    flex: 0 1 auto;
+  }
+}
