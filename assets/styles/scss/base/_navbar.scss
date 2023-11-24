@@ -1,0 +1,18 @@
+@import '../variables/global-variables';
+
+#navbar {
+  display: flex;
+  align-items: center;
+
+  // Sizes
+  min-height: 2.5rem;
+
+  // Paddings
+  padding: 0 $global-side-padding;
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+}

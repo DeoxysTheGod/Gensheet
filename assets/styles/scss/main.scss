@@ -1,0 +1,11 @@
+// variables
+@import 'variables/global-variables';
+// base
+@import 'base/root';
+@import 'base/base';
+@import 'base/header';
+
+html {
+  background-color: var(--clr-primary-background);
+  color: var(--clr-primary-text)
+}

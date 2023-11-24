@@ -1,0 +1,25 @@
+$light-theme: (
+    'primary': (
+        'background': #ccd6ea,
+        'text': #131313
+    ),
+    'navbar': (
+        'background': #7575de
+    ),
+    'button': (
+        'hover': #6565d2
+    )
+);
+
+$dark-theme: (
+    'primary': (
+        'background': #14142a,
+        'text': #c7c5c2
+    ),
+    'navbar': (
+        'background': #242445
+    ),
+    'button': (
+        'hover': #363657
+    )
+);

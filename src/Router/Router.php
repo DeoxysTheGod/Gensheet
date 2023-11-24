@@ -2,6 +2,9 @@
 
 namespace App\Router;
 
+use App\Controller\Error404Controller;
+use http\Url;
+
 class Router
 {
 	private $url;
@@ -27,13 +30,15 @@ class Router
 	public function run()
 	{
 		if (!isset($this->routes[$_SERVER['REQUEST_METHOD']])) {
-			throw new RouterException('REQUEST_METHOD does not exist');
+			(new Error404Controller())->render();
+			exit();
 		}
 		foreach ($this->routes[$_SERVER['REQUEST_METHOD']] as $route) {
 			if ($route->match($this->url)) {
 				return $route->call();
 			}
 		}
-		throw new RouterException('No matching routes');
+		(new Error404Controller())->render();
+		exit();
 	}
 }
