@@ -17,4 +17,4 @@ jobs:
         with:
           server: ftp-gensheet.alwaysdata.net
           username: gensheet-deploy
-          password: ${{ secrets.ftp_password }}
+          password: ${{ secrets.pwd }}
