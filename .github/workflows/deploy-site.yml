@@ -16,5 +16,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp-gensheet.alwaysdata.net
-          username: gensheet-deploy
+          username: gensheet_deploy
           password: ${{ secrets.pwd }}
