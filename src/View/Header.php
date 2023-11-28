@@ -7,5 +7,5 @@
             <button class="theme-toggle app-button">Theme</button>
         </div>
 	</div>
-	<?php require "Navbar.php" ?>
+    <?php require "Navbar.php"; ?>
 </header>
