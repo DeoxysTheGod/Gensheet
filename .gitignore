@@ -4,6 +4,9 @@
 *.iws
 *.ipr
 
+# Node module
+/node_modules/
+
 # Maven
 
 target/
