@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 :root {
   --clr-primary-background: #14142a;
+  --clr-primary-content-background: #1e1e3f;
   --clr-primary-text: #c7c5c2;
   --clr-navbar-background: #242445;
   --clr-button-hover: #363657;
@@ -8,6 +9,7 @@
 
 html[data-theme=dark] {
   --clr-primary-background: #14142a;
+  --clr-primary-content-background: #1e1e3f;
   --clr-primary-text: #c7c5c2;
   --clr-navbar-background: #242445;
   --clr-button-hover: #363657;
@@ -15,6 +17,7 @@ html[data-theme=dark] {
 
 html[data-theme=light] {
   --clr-primary-background: #ccd6ea;
+  --clr-primary-content-background: #f5f5f5;
   --clr-primary-text: #131313;
   --clr-navbar-background: #7575de;
   --clr-button-hover: #6565d2;
@@ -48,6 +51,41 @@ html[data-theme=light] {
 
 .app-button:hover {
   background-color: var(--clr-button-hover);
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-container .tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltip-container .tooltip .tooltip-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+.tooltip-container .tooltip .tooltip-img {
+  width: 250px;
+  height: auto;
+}
+.tooltip-container .tooltip p {
+  margin-top: 20px;
+  width: 200px;
+}
+.tooltip-container .tooltip-trigger:hover + .tooltip {
+  visibility: visible;
+  opacity: 1;
 }
 
 * {
@@ -122,4 +160,12 @@ h4 {
 html {
   background-color: var(--clr-primary-background);
   color: var(--clr-primary-text);
+}
+
+.main-container {
+  display: flex;
+  background-color: var(--clr-primary-content-background);
+  justify-content: center;
+  margin: 0 auto;
+  width: 50rem;
 }

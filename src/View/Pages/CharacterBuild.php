@@ -3,11 +3,27 @@
 namespace App\View\Pages;
 
 class CharacterBuild {
-    public function render(array $character): string {
+
+    private array $character;
+    private string $artifacts;
+
+    public function __construct(array $character, string $artifacts) {
+        $this->character = $character;
+        $this->artifacts = $artifacts;
+    }
+
+    public function render(): string {
         ob_start();
         ?>
-        <h1><?= $character["name"] ?></h1>
-        <p><?= $character["rarity"] ?></p>
+        <div class="characters">
+            <h1><?= $this->character["name"] ?></h1>
+            <div class="build">
+                <div class="artifacts-set">
+                    <h1>Artéfacts</h1>
+                    <?php echo $this->artifacts; ?>
+                </div>
+            </div>
+        </div>
         <?php
         return ob_get_clean();
     }
