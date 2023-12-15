@@ -1,0 +1,12 @@
+.set {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.set .artifact {
+  text-align: center;
+}
+.set .artifact img {
+  height: 7rem;
+  width: auto;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Cyno",
+  "element": "Electro",
+  "weapon": "Lance",
+  "rarity": "5",
+  "builds":
+    {
+      "set": [
+        ["reve-dore", "gladiateur"],
+        ["gladiateur"]
+      ],
+      "weapon": [
+        "lance-de-fer",
+        "lance-de-fer-ii",
+        "lance-de-fer-iii"
+      ]
+    }
+
+}

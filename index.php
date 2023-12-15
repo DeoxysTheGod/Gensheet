@@ -9,9 +9,11 @@ $router->get('/', function () {
 $router->get('/error', function () {
 	(new \App\Controller\Error404Controller())->render();
 });
-
-//$router->get('/posts', function() {echo 'tous les articles';});
-//$router->get('/posts/:id', function($id) {echo 'Afficher l\'article' . $id;});
-//$router->post('/posts/:id', function($id) {echo 'Poster l\'article' . $id;});
+$router->get('/character/:name', function ($name) {
+	(new \App\Controller\Pages\CharacterBuildController())->render($name);
+});
+$router->get('/character', function () {
+	(new \App\Controller\Pages\CharacterController())->render();
+});
 
 $router->run();

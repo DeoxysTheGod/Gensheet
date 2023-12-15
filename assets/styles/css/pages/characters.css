@@ -1,0 +1,25 @@
+.characters {
+  display: block;
+  width: 100%;
+}
+.characters h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.characters .character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+.characters .character .character-link {
+  width: 100%;
+  padding: 0;
+  border-radius: 7px;
+}
+.characters .character .character-link .character-img {
+  width: 5rem;
+  height: auto;
+  object-fit: cover;
+}

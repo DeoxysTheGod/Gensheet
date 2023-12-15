@@ -9,3 +9,11 @@ html {
   background-color: var(--clr-primary-background);
   color: var(--clr-primary-text)
 }
+
+.main-container {
+  display: flex;
+  background-color: var(--clr-primary-content-background);
+  justify-content: center;
+  margin: 0 auto;
+  width: 50rem;
+}
