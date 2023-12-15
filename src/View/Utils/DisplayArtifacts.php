@@ -8,10 +8,10 @@ class DisplayArtifacts
 {
 	public function show(array $sets): string {
 		ob_start();
-        $cpt = 1?>
+        $cpt = 1;?>
 <?php foreach ($sets as $set): ?>
 	<div class="set">
-        <p>set <?= $cpt; $cpt++; ?></p>
+        <p><?= $cpt; $cpt++; ?></p>
 		<?php foreach ($set as $artifact): ?>
 			<div class="artifact tooltip-container">
 				<img class="artifact-img tooltip-trigger" src="<?= $artifact["image"] ?>" alt="(image de <?= $artifact["name"] ?>)">

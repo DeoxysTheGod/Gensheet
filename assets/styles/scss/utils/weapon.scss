@@ -1,0 +1,15 @@
+.weapons {
+  display: flex;
+  flex-flow: column wrap;
+  gap: .5rem;
+
+  .weapon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+        width: 3rem;
+        height: 3rem;
+    }
+  }
+}

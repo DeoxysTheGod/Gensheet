@@ -2,5 +2,17 @@
   "name": "Furina",
   "element": "Hydro",
   "weapon": "Épée à une main",
-  "rarity": "5"
+  "rarity": "5",
+  "builds":
+  {
+    "set": [
+      ["reve-dore", "gladiateur"],
+      ["gladiateur"]
+    ],
+    "weapon": [
+      "lance-de-fer",
+      "lance-de-fer-ii",
+      "lance-de-fer-iii"
+    ]
+  }
 }
