@@ -2,8 +2,6 @@
 
 namespace App\View\Utils;
 
-include "src/GlobalVariables.php";
-
 class DisplayArtifacts
 {
 	public function show(array $sets): string {
