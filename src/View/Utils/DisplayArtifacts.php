@@ -19,7 +19,7 @@ class DisplayArtifacts
                     <h2 class="tooltip-title"><?= $artifact["name"] ?></h2>
                     <?php if ($artifact["dj-image"] !== null): ?>
                     <img class="tooltip-img"
-                         src="<?= $GLOBALS['dj-image'] . $artifact["dj-image"] . '.png' ?>" alt="(image du donjon de <?= $artifact["name"] ?>)">
+                         src="<?= djImage . $artifact["dj-image"] . '.png' ?>" alt="(image du donjon de <?= $artifact["name"] ?>)">
                     <?php else: ?>
                     <p>Cette artéfact n'est disponible qu'en faisant les boss du monde</p>
 					<?php endif; ?>
