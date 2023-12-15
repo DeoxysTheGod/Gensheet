@@ -1,4 +1,4 @@
 <?php
 
 // Variables globales
-define('djImage', "/assets/img/donjon/");
+$GLOBALS['dj-image'] = "/assets/img/donjon/";
