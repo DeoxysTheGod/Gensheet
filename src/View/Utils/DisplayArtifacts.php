@@ -23,7 +23,6 @@ class DisplayArtifacts
 							<?php else: ?>
                                 <p>Cette artéfact n'est disponible qu'en faisant les boss du monde</p>
 							<?php endif; ?>
-
                         </div>
                     </div>
 				<?php endforeach; ?>
