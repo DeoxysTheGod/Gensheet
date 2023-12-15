@@ -17,7 +17,7 @@ class DisplayArtifacts
 				<img class="artifact-img tooltip-trigger" src="<?= $artifact["image"] ?>" alt="(image de <?= $artifact["name"] ?>)">
                 <div class="tooltip">
                     <h2 class="tooltip-title"><?= $artifact["name"] ?></h2>
-                    <?php if ($artifact["dj-image"] !== null): ?>
+                    <?php if ($artifact["dj-image"] !== ""): ?>
                     <img class="tooltip-img"
                          src="<?= $GLOBALS['dj-image'] . $artifact["dj-image"] . '.png' ?>" alt="(image du donjon de <?= $artifact["name"] ?>)">
                     <?php else: ?>
