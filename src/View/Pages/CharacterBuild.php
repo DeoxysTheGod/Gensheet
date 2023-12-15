@@ -2,6 +2,8 @@
 
 namespace App\View\Pages;
 
+include_once "src/GlobalVariables.php";
+
 class CharacterBuild
 {
 

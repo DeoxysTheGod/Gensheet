@@ -2,7 +2,7 @@
 
 namespace App\View;
 
-include "src/GlobalVariables.php";
+include_once "src/GlobalVariables.php";
 
 class Layout
 {
