@@ -1,6 +1,16 @@
 {
   "name": "Yaoyao",
+  "id": "yaoyao",
   "element": "Dendro",
   "weapon": "Lance",
-  "rarity": "4"
+  "rarity": "4",
+  "builds":
+  {
+    "set": [
+
+    ],
+    "weapon": [
+
+    ]
+  }
 }

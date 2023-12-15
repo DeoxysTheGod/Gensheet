@@ -11,7 +11,6 @@ class FileGetterModel
 		$files = array_map(function ($file) {
 			return pathinfo($file, PATHINFO_FILENAME);
 		}, $files);
-		var_dump($weapons);
 		return array_intersect($files, $weapons);
 	}
 

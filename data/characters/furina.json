@@ -1,5 +1,6 @@
 {
   "name": "Furina",
+  "id": "furina",
   "element": "Hydro",
   "weapon": "Épée à une main",
   "rarity": "5",
@@ -10,9 +11,7 @@
       ["gladiateur"]
     ],
     "weapon": [
-      "lance-de-fer",
-      "lance-de-fer-ii",
-      "lance-de-fer-iii"
+
     ]
   }
 }

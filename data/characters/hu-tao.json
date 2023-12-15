@@ -1,6 +1,16 @@
 {
   "name": "Hu Tao",
+  "id": "hu-tao",
   "element": "Pyro",
   "weapon": "Lance",
-  "rarity": "5"
+  "rarity": "5",
+  "builds":
+  {
+    "set": [
+
+    ],
+    "weapon": [
+
+    ]
+  }
 }
