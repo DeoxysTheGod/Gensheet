@@ -1,5 +1,6 @@
 {
   "name": "Cyno",
+  "id": "cyno",
   "element": "Electro",
   "weapon": "Lance",
   "rarity": "5",
@@ -10,10 +11,12 @@
         ["gladiateur"]
       ],
       "weapon": [
-        "lance-de-fer",
-        "lance-de-fer-ii",
-        "lance-de-fer-iii"
+        "baton-des-sables-ecarlates",
+        "lance-de-jade",
+        "scion-de-la-victoire",
+        "lance-de-rochenoire",
+        "pampille-blanche",
+        "lance-de-croix-de-kitain"
       ]
     }
-
 }
